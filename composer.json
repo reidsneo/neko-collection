@@ -1,0 +1,21 @@
+{
+  "name": "neko/collection",
+  "description": "neko framework collections library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Reids",
+          "email": "reids@neoblackant.org"
+      }
+  ],
+  "autoload": {
+      "psr-4": {
+          "Neko\\Collection\\": "src/"
+      },
+      "files": ["src/helpers.php"]
+  },
+  "require": {
+      "php": ">=7.0"
+  }
+}
